@@ -43,6 +43,14 @@ jobs:
       # release
       - run: *release
 
+  nighly-job:
+    <<: *defaults
+    steps:
+      - checkout
+
+      # yarn (no cache)
+      - run: yarn --pure-lockfile
+
 #
 # Workflows
 #
@@ -54,3 +62,13 @@ workflows:
           filters:
             branches:
               only: master
+
+  nightly-workflow:
+    triggers:
+      - schedule:
+          cron: "0 4 * * *" # 04:00 every day
+          filters:
+            branches:
+              only: master
+    jobs:
+      - nightly-job
