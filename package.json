@@ -1,0 +1,36 @@
+{
+  "name": "@naturalcycles/semantic-release",
+  "version": "1.0.0",
+  "scripts": {
+    "release": "node ./src/bin/release.js"
+  },
+  "dependencies": {
+    "@semantic-release/changelog": "^3.0.1",
+    "@semantic-release/git": "^7.0.5",
+    "semantic-release": "^15.10.8"
+  },
+  "bin": {
+    "release": "src/bin/release.js"
+  },
+  "files": [
+    "cfg",
+    "src",
+    "!src/test",
+    "!src/**/*.test.*",
+    "!src/**/__snapshots__",
+    "!src/**/_exclude"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NaturalCycles/semantic-release"
+  },
+  "engines": {
+    "node": ">=8.11"
+  },
+  "description": "",
+  "author": "Natural Cycles Team",
+  "license": "MIT"
+}
