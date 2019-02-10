@@ -43,7 +43,7 @@ jobs:
       # release
       - run: *release
 
-  nighly-job:
+  nightly-job:
     <<: *defaults
     steps:
       - checkout
