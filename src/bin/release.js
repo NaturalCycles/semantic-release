@@ -3,6 +3,7 @@
 const semanticRelease = require('semantic-release')
 const yargs = require('yargs')
 const path = require('path')
+const fs = require('fs')
 
 main().catch(err => {
   console.error(err)
@@ -18,9 +19,18 @@ async function main() {
   }).argv
 
   const cwd = process.cwd()
-  const config = configPath
-    ? require(path.resolve(cwd, configPath))
-    : require('../../cfg/release.config') // defaultConfig
+
+  const localConfig = `./release.config.js`
+  let config
+
+  if (configPath) {
+    config = require(path.resolve(cwd, configPath))
+  } else if (fs.existsSync(localConfig)) {
+    config = require(path.resolve(cwd, localConfig))
+  } else {
+    config = require('../../cfg/release.config') // defaultConfig
+  }
+
   // console.log(config) // debug
   await semanticRelease(config)
 }
