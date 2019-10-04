@@ -7,7 +7,12 @@
   "dependencies": {
     "@semantic-release/changelog": "^3.0.1",
     "@semantic-release/git": "^7.0.5",
-    "semantic-release": "^15.10.8"
+    "semantic-release": "^15.10.8",
+    "yargs": "^14.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.11",
+    "@types/yargs": "^13.0.3"
   },
   "bin": {
     "release": "src/bin/release.js"
@@ -18,7 +23,7 @@
     "!src/test",
     "!src/**/*.test.*",
     "!src/**/__snapshots__",
-    "!src/**/_exclude"
+    "!src/**/__exclude"
   ],
   "publishConfig": {
     "access": "public"
@@ -30,7 +35,7 @@
   "engines": {
     "node": ">=8.11"
   },
-  "description": "",
+  "description": "semantic-release with some tweaks",
   "author": "Natural Cycles Team",
   "license": "MIT"
 }
