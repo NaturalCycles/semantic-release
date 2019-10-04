@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/NaturalCycles/semantic-release/compare/v1.0.0...v1.1.0) (2019-10-04)
+
+
+### Features
+
+* support --config ([9b01fb5](https://github.com/NaturalCycles/semantic-release/commit/9b01fb5))
+
 # 1.0.0 (2019-02-09)
 
 
