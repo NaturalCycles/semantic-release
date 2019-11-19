@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/NaturalCycles/semantic-release/compare/v1.2.0...v1.3.0) (2019-11-19)
+
+
+### Features
+
+* deps ([e77a96e](https://github.com/NaturalCycles/semantic-release/commit/e77a96e70aecf1d7408fc95fa74d83131a5d649a))
+
 # [1.2.0](https://github.com/NaturalCycles/semantic-release/compare/v1.1.0...v1.2.0) (2019-10-04)
 
 
