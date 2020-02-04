@@ -35,7 +35,7 @@
   "engines": {
     "node": ">=10.18"
   },
-  "description": "semantic-release with some tweaks",
+  "description": "semantic-release with some tweaks and default config",
   "author": "Natural Cycles Team",
   "license": "MIT"
 }
