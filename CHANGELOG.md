@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/NaturalCycles/semantic-release/compare/v1.4.0...v1.5.0) (2020-02-04)
+
+
+### Features
+
+* trigger a release on [@latest](https://github.com/latest) channel ([efdf49a](https://github.com/NaturalCycles/semantic-release/commit/efdf49a3dcd8f7fc815d75ccbf41fd7360060944))
+
 # [1.4.0](https://github.com/NaturalCycles/semantic-release/compare/v1.3.0...v1.4.0) (2020-02-04)
 
 
