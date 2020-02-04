@@ -48,7 +48,7 @@ jobs:
       - checkout
 
       # yarn (no cache)
-      - run: yarn --pure-lockfile
+      - run: yarn --frozen-lockfile
 
 #
 # Workflows
@@ -60,7 +60,7 @@ workflows:
       - build-job:
           filters:
             branches:
-              only: master
+              only: [master, next]
 
   nightly-workflow:
     triggers:
