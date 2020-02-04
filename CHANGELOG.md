@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/NaturalCycles/semantic-release/compare/v1.3.0...v1.4.0) (2020-02-04)
+
+
+### Features
+
+* upgrade semantic-release to 17.x ([0410c9f](https://github.com/NaturalCycles/semantic-release/commit/0410c9fc9f22c0770742f8e15244ed896aeb9a4f))
+
 # [1.3.0](https://github.com/NaturalCycles/semantic-release/compare/v1.2.0...v1.3.0) (2019-11-19)
 
 
