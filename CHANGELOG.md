@@ -1,3 +1,10 @@
+## [1.5.1](https://github.com/NaturalCycles/semantic-release/compare/v1.5.0...v1.5.1) (2020-04-02)
+
+
+### Bug Fixes
+
+* deps ([a0414ba](https://github.com/NaturalCycles/semantic-release/commit/a0414ba86396342ebc70d5cce5be4d4f0cacc3a5))
+
 # [1.5.0](https://github.com/NaturalCycles/semantic-release/compare/v1.4.0...v1.5.0) (2020-02-04)
 
 
