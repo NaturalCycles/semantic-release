@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/NaturalCycles/semantic-release/compare/v1.5.2...v1.6.0) (2020-11-15)
+
+
+### Features
+
+* gh actions release-job ([569d3b4](https://github.com/NaturalCycles/semantic-release/commit/569d3b474e25aab9676d069072e7ba559fa51ee5))
+
 ## [1.5.2](https://github.com/NaturalCycles/semantic-release/compare/v1.5.1...v1.5.2) (2020-09-23)
 
 
