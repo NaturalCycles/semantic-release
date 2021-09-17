@@ -1,6 +1,6 @@
 {
   "name": "@naturalcycles/semantic-release",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "scripts": {
     "release": "node ./src/bin/release.js"
   },
