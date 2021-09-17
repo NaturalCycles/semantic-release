@@ -6,13 +6,13 @@
   },
   "dependencies": {
     "@semantic-release/changelog": "^5.0.0",
-    "@semantic-release/git": "^9.0.0",
-    "semantic-release": "^17.0.2",
-    "yargs": "^16.0.3"
+    "@semantic-release/git": "^9.0.1",
+    "semantic-release": "^18.0.0",
+    "yargs": "^17.1.1"
   },
   "devDependencies": {
-    "@types/node": "^14.11.2",
-    "@types/yargs": "^15.0.3"
+    "@types/node": "^16.9.2",
+    "@types/yargs": "^17.0.2"
   },
   "bin": {
     "release": "src/bin/release.js"
