@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/NaturalCycles/semantic-release/compare/v1.6.1...v1.7.0) (2021-10-21)
+
+
+### Features
+
+* deps ([058457d](https://github.com/NaturalCycles/semantic-release/commit/058457da18df48eb13f9f6fbb20e6c3f0e774349))
+
 ## [1.6.1](https://github.com/NaturalCycles/semantic-release/compare/v1.6.0...v1.6.1) (2021-09-17)
 
 
