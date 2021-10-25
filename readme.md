@@ -9,6 +9,7 @@
 
 - Install as devDependency with `yarn add -D @naturalcycles/semantic-release`
 - Will give you `yarn release` command with sensible defaults
-- You'll need env variables like `NPM_TOKEN`, `GH_TOKEN` in your CI before calling `yarn release`
+- You'll need env variables like `NPM_TOKEN`, `GITHUB_TOKEN` in your CI before calling `yarn release`
 
 See https://github.com/semantic-release/semantic-release
+ 
