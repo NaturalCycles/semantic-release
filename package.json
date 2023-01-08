@@ -1,17 +1,17 @@
 {
   "name": "@naturalcycles/semantic-release",
-  "version": "1.7.0",
+  "version": "2.0.0",
   "scripts": {
     "release": "node ./src/bin/release.js"
   },
   "dependencies": {
     "@semantic-release/changelog": "^6.0.0",
     "@semantic-release/git": "^10.0.0",
-    "semantic-release": "^19.0.2",
+    "semantic-release": "^20.0.2",
     "yargs": "^17.1.1"
   },
   "devDependencies": {
-    "@types/node": "^17.0.10",
+    "@types/node": "^18.11.18",
     "@types/yargs": "^17.0.2"
   },
   "bin": {
@@ -33,7 +33,7 @@
     "url": "https://github.com/NaturalCycles/semantic-release"
   },
   "engines": {
-    "node": ">=10.18"
+    "node": ">=18.12"
   },
   "description": "semantic-release with some tweaks and default config",
   "author": "Natural Cycles Team",

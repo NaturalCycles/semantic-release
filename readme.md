@@ -13,3 +13,10 @@
 
 See https://github.com/semantic-release/semantic-release
  
+# Development
+
+Test it:
+
+```shell
+yarn release
+```

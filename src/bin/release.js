@@ -1,9 +1,8 @@
 #!/usr/bin/env node
 
-const semanticRelease = require('semantic-release')
 const yargs = require('yargs')
-const path = require('path')
-const fs = require('fs')
+const path = require('node:path')
+const fs = require('node:fs')
 
 main().catch(err => {
   console.error(err)
@@ -32,5 +31,6 @@ async function main() {
   }
 
   // console.log(config) // debug
+  const { default: semanticRelease } = await import('semantic-release')
   await semanticRelease(config)
 }
