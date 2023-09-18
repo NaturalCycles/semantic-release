@@ -7,11 +7,11 @@
   "dependencies": {
     "@semantic-release/changelog": "^6.0.0",
     "@semantic-release/git": "^10.0.0",
-    "semantic-release": "^21.0.0",
+    "semantic-release": "^22.0.0",
     "yargs": "^17.1.1"
   },
   "devDependencies": {
-    "@types/node": "^18.11.18",
+    "@types/node": "^20.6.2",
     "@types/yargs": "^17.0.2"
   },
   "bin": {
