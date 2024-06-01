@@ -7,7 +7,7 @@
   "dependencies": {
     "@semantic-release/changelog": "^6.0.0",
     "@semantic-release/git": "^10.0.0",
-    "semantic-release": "^23.0.0",
+    "semantic-release": "^24.0.0",
     "yargs": "^17.1.1"
   },
   "devDependencies": {
@@ -33,7 +33,7 @@
     "url": "https://github.com/NaturalCycles/semantic-release"
   },
   "engines": {
-    "node": ">=18.12"
+    "node": ">=20.11"
   },
   "description": "semantic-release with some tweaks and default config",
   "author": "Natural Cycles Team",
