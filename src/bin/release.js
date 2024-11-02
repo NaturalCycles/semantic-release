@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
-const yargs = require('yargs')
 const path = require('node:path')
 const fs = require('node:fs')
+const { parseArgs } = require('node:util')
 
 main().catch(err => {
   console.error(err)
@@ -10,12 +10,15 @@ main().catch(err => {
 })
 
 async function main() {
-  const {config: configPath} = yargs.options({
-    config: {
-      type: 'string',
-      descr: 'Path to config file',
-    }
-  }).argv
+  const { config: configPath }  = parseArgs({
+    options: {
+      config: {
+        type: 'string',
+        descr: 'Path to config file',
+      },
+    },
+  }).values
+  // console.log({configPath})
 
   const cwd = process.cwd()
 
