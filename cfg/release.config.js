@@ -2,7 +2,7 @@
  * Default config for `semantic-release`.
  * Extendable.
  */
-module.exports = {
+export default {
   branches: [
     'master',
     'next',

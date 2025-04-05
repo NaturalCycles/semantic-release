@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
-const path = require('node:path')
-const fs = require('node:fs')
-const { parseArgs } = require('node:util')
+import { resolve } from 'node:path'
+import { existsSync } from 'node:fs'
+import { parseArgs } from 'node:util'
 
 main().catch(err => {
   console.error(err)
@@ -26,11 +26,11 @@ async function main() {
   let config
 
   if (configPath) {
-    config = require(path.resolve(cwd, configPath))
-  } else if (fs.existsSync(localConfig)) {
-    config = require(path.resolve(cwd, localConfig))
+    config = (await import(resolve(cwd, configPath))).default
+  } else if (existsSync(localConfig)) {
+    config = (await import(resolve(cwd, localConfig))).default
   } else {
-    config = require('../../cfg/release.config') // defaultConfig
+    config = (await import('../../cfg/release.config.js')).default // defaultConfig
   }
 
   // console.log(config) // debug
