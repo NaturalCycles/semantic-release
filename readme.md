@@ -18,5 +18,5 @@ See https://github.com/semantic-release/semantic-release
 Test it:
 
 ```shell
-yarn release
+pnpm run release
 ```

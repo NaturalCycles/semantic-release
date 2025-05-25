@@ -1,17 +1,18 @@
 {
   "name": "@naturalcycles/semantic-release",
-  "version": "2.0.0",
   "type": "module",
+  "version": "2.0.0",
   "scripts": {
     "release": "node ./src/bin/release.js"
   },
   "dependencies": {
-    "@semantic-release/changelog": "^6.0.0",
-    "@semantic-release/git": "^10.0.0",
-    "semantic-release": "^24.0.0"
+    "@semantic-release/changelog": "^6",
+    "@semantic-release/git": "^10",
+    "semantic-release": "^24"
   },
   "devDependencies": {
-    "@types/node": "^22.8.6"
+    "@types/node": "^22",
+    "husky": "^9"
   },
   "bin": {
     "release": "src/bin/release.js"
@@ -34,6 +35,7 @@
   "engines": {
     "node": ">=22.12.0"
   },
+  "packageManager": "pnpm@10.11.0+sha512.6540583f41cc5f628eb3d9773ecee802f4f9ef9923cc45b69890fb47991d4b092964694ec3a4f738a420c918a333062c8b925d312f42e4f0c263eb603551f977",
   "description": "semantic-release with some tweaks and default config",
   "author": "Natural Cycles Team",
   "license": "MIT"
